@@ -1,7 +1,6 @@
 import requests, json, pprint, sys
 
 url = "https://api.tvmaze.com/singlesearch/shows"
-answer = ''
 while True:
     show = input("Please input a tv show name: ")
     params = {"q":show}
